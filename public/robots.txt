@@ -1,0 +1,6 @@
+User-agent: *
+Allow:
+
+
+Sitemap: http://koll.com.ph/koll_sitemap.xml
+Shared:  https://external-atl3-1.xx.fbcdn.net/

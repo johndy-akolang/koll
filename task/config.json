@@ -1,0 +1,85 @@
+{
+  "env": "prod",
+
+  "_description": "Add your js files here.",
+  "js": {
+    "vendor": {
+      "path": "./public/js/vendor/",
+      "files": {
+        "dev": [
+          "./node_modules/jquery/dist/jquery.js",
+          "./node_modules/bootstrap/dist/js/bootstrap.js",
+          "./node_modules/dropzone/dist/dropzone.js",
+          "./node_modules/jquery-maskmoney/dist/jquery.maskMoney.js",
+          "./public/js/vendor/jquery.nivo.slider.js",
+          "./public/js/vendor/jquery.etalage.min.js",
+          "./public/js/vendor/modernizr.custom.js",
+          "./public/js/vendor/jquery.pageparser-0.1.2.min.js"
+        ],
+        "prod": [
+          "./node_modules/jquery/dist/jquery.min.js",
+          "./node_modules/bootstrap/dist/js/bootstrap.min.js",
+          "./node_modules/dropzone/dist/min/dropzone.min.js",
+          "./node_modules/jquery-maskmoney/dist/jquery.maskMoney.min.js",
+          "./public/js/vendor/jquery.nivo.slider.js",
+          "./public/js/vendor/jquery.etalage.min.js",
+          "./public/js/vendor/modernizr.custom.js",
+          "./public/js/vendor/jquery.pageparser-0.1.2.min.js"
+        ]
+      }
+    },
+    "app": {
+      "path": "./public/js/",
+      "files": [
+        "./public/js/cbp-horizontal-menu.min.js",
+        "./public/js/class.js",
+        "./public/js/global.js"
+      ]
+    }
+  },
+
+  "_description": "Add your css files here.",
+  "css": {
+    "vendor": {
+      "path": "./public/css/vendor/",
+      "files": {
+        "dev": [
+          "./node_modules/bootstrap/dist/css/bootstrap.css",
+          "./node_modules/dropzone/dist/dropzone.css",
+          "./node_modules/font-awesome/css/font-awesome.css",
+          "./public/css/vendor/nivo-slider.css",
+          "./public/css/vendor/nivo-slider.default.css",
+          "./public/css/vendor/etalage.css"
+        ],
+        "prod": [
+          "./node_modules/bootstrap/dist/css/bootstrap.min.css",
+          "./node_modules/dropzone/dist/min/dropzone.min.css",
+          "./node_modules/font-awesome/css/font-awesome.min.css",
+          "./public/css/vendor/nivo-slider.css",
+          "./public/css/vendor/nivo-slider.default.css",
+          "./public/css/vendor/etalage.css"
+        ]
+      }
+    },
+    "app": {
+      "path": "./public/css/",
+      "files": [
+        "./public/css/global.css",
+        "./public/css/app.css"
+      ]
+    }
+  },
+
+  "_description": "Add your font files here.",
+  "font": {
+    "path": "./public/css/fonts/",
+    "files": [
+      "./node_modules/font-awesome/fonts/fontawesome-webfont.eot",
+      "./node_modules/font-awesome/fonts/fontawesome-webfont.svg",
+      "./node_modules/font-awesome/fonts/fontawesome-webfont.ttf",
+      "./node_modules/font-awesome/fonts/fontawesome-webfont.woff",
+      "./node_modules/font-awesome/fonts/fontawesome-webfont.woff2",
+      "./node_modules/font-awesome/fonts/FontAwesome.otf"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "devDependencies": {
+    "chalk": "^1.1.1",
+    "gulp": "^3.9.0",
+    "gulp-uglify": "^1.5.1",
+    "laravel-elixir": "^4.2.0"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.5",
+    "bootstrap-sass": "^3.0.0",
+    "dropzone": "^4.0.1",
+    "font-awesome": "^4.4.0",
+    "jquery": "^2.1.4",
+    "jquery-maskmoney": "^3.0.2"
+  }
+}
